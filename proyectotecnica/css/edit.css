@@ -1,0 +1,95 @@
+#container {
+    text-align: center;
+    margin-top: 20px;
+    background: linear-gradient(135deg,#000000, #000000);
+    border: 4px solid transparent;
+    border-image:linear-gradient(135deg,#ff0000, #ff7b00,#fbff00,#8cd812,#12d8b7,#0e168d ) 1;
+    border-image-slice:1;
+    border-radius: 10px;
+    padding: 30px ;
+    width: 340px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #888888;
+    color: #aad7fc;
+    text-shadow: 2px 2px 4px #ffffff;
+    font-family: "", sans-serif;
+}
+
+input[type="number"] {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-image:linear-gradient(135deg,#00ffcc, #ffcc00) 1;
+    border-image-slice:1;
+    border-radius: 5px;
+    font-size: 16px;
+    border-radius: 2px;
+    background:linear-gradient(135deg,#2917cc, #150430);
+    color: #51ff00; 
+    text-shadow: 2px 2px 4px #030000; 
+    
+}
+
+button {
+    background:linear-gradient(135deg,#850b0b96, #f53100c0);
+    color: #110303;
+    padding: 20px 30px;
+    margin: 5px;
+    border: 1px solid transparent;
+    border-image:linear-gradient(135deg,#00ffcc, #ffcc00) 1;
+     border-image-slice:1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s,box-shadow 0.3s;
+    font-size: 16px;
+    width:60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px #080724; 
+}
+
+button:hover {
+    background:linear-gradient(135deg,#1eff00, #c4840d);
+    box-shadow: 3px 3px 6px #888888;
+    color: #333;
+}
+
+ #in{
+      display:grid; 
+      grid-template-columns:repeat(4,1fr); 
+     grid-gap:5px;
+    justify-content: center;  
+    
+} 
+
+ #container textarea {
+    font-weight: bold;
+    font-size:18px;
+    background:linear-gradient(135deg,#2317cc, #0f0331);
+    color: #fcfcfd;
+    border: 2px solid #ccc ;
+    border-radius: 25px;
+    width: 100%;
+    height:80px;
+    resize: none;
+    margin-top: 10px;
+    box-shadow: 3px 3px 6px #888888;
+    text-align: center;
+    text-shadow: 2px 2px 4px #ffcc00; 
+} 
+button:hover span {
+    color: #00ffcc;
+    text-shadow: 2px 2px 4px #ffcc00; /* Sombreado del texto al pasar el mouse */
+}
+
+body {
+    background-image: url('../img/original.jpg');
+    background-size: cover;
+    
+    background-position: center center;
+
+}

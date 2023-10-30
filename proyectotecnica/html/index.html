@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>proyecto</title>
+        <link rel="stylesheet" href="../css/edit.css">
+    </head>
+<body>
+    <div id="container">
+        <h1>ℂ𝔸𝕃ℂ𝕌𝕃𝔸𝔻𝕆ℝ𝔸</h1>
+        <label for="valor1">Número 1:</label>
+        <input type="number" id="valor1" placeholder="">
+
+        <label for "valor2">Número 2:</label>
+        <input type="number" id="valor2" placeholder="">
+
+        <div id="in">
+            <button type="button" onclick="x.suma()">+</button>
+            <button type="button" onclick="x.resta()">-</button>
+            <button type="button" onclick="x.multiplicacion()">*</button>
+            <button type="button" onclick="x.division()">/</button>
+            <button type="button" onclick="x.potenciacion()"> ^ </button>
+
+
+            <a href="../html/raiz.html">
+                <button>√ </button>
+            </a>
+            <button type="button" onclick="x.limpiarCampos()">Limpiar</button>
+        </div>
+
+        <textarea id="Salida_Datos" rows="3">""</textarea>
+    
+    <script src="../js/calculador.js"></script>
+</body>
+</html>
+
